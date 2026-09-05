@@ -1,4 +1,4 @@
-# Linux-Basics-Part-1
+# Linux Basics Part 1
 
 
 ## Overview
