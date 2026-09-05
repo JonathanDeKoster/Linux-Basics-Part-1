@@ -122,12 +122,22 @@ The resulting `Permission denied` error was diagnosed by inspecting the file per
 ls -l test.sh
 ```
 
-Execute Permission was added with:
+Execute permission was added with:
 
 ```bash
 chmod +x test.sh
 ```
+After verifying the updated permissions, the script was successfully executed:
 
+```bash
+./test.sh
+```
+
+The script returned:
+
+```bash
+Hello from the script!
+```
 
 
 ## Key Takeaways
@@ -151,7 +161,7 @@ The lab reinforced a practical troubleshooting approach:
 
 ## Screenshots / Evidence
 
-### Ubuntu Server/ VirtualBox
+### Ubuntu Server / VirtualBox
 <img width="686" height="583" alt="Ubuntu Server" src="https://github.com/user-attachments/assets/1cc35738-4961-4374-8771-419378f15456" />
 
 
