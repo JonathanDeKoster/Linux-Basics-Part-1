@@ -85,9 +85,10 @@ Used a multi-step pipe chain to identify and count warnings related to memory us
 
 ```bash
 cat app.log | grep -i warning | grep -i memory
-
+```
+```bash
 cat app.log | grep -i warning | grep -i memory | wc -l
-
+```
 
 ## 5. Linux File Permissions
 
@@ -119,13 +120,13 @@ The resulting `Permission denied` error was diagnosed by inspecting the file per
 
 ```bash
 ls -l test.sh
-
+```
 
 Execute Permission was added with:
 
 ```bash
 chmod +x test.sh
-
+```
 
 
 
