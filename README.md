@@ -85,3 +85,96 @@ Used a multi-step pipe chain to identify and count warnings related to memory us
 
 ```bash
 cat app.log | grep -i warning | grep -i memory
+
+cat app.log | grep -i warning | grep -i memory | wc -l
+
+
+## 5. Linux File Permissions
+
+Practiced interpreting and modifying Linux file permissions using `ls -l`, `chmod`, and `chown`.
+
+Reviewed the three permission categories:
+
+- Owner
+- Group
+- Others
+
+And the three permission types:
+
+- Read
+- Write
+- Execute
+
+Also practiced numeric permissions including:
+
+- `755` — `rwxr-xr-x`
+- `644` — `rw-r--r--`
+- `000` — `---------`
+
+## 6. Permission Troubleshooting
+
+Created a Bash script and intentionally attempted to execute it without execute permissions.
+
+The resulting `Permission denied` error was diagnosed by inspecting the file permissions:
+
+```bash
+ls -l test.sh
+
+
+Execute Permission was added with:
+
+```bash
+chmod +x test.sh
+
+
+
+
+## Key Takeaways
+
+This lab provided hands-on practice with common Linux tasks used in IT support and system administration, including:
+
+- Navigating the Linux filesystem
+- Creating, moving, copying, and deleting files and directories
+- Editing and reading files
+- Monitoring and analyzing logs
+- Searching and filtering information with `grep`
+- Using pipes to chain commands together
+- Locating files with `find`
+- Understanding Linux file permissions
+- Using `chmod` and `chown`
+- Troubleshooting permission-related errors
+
+The lab reinforced a practical troubleshooting approach:
+
+**Observe the problem → gather information → identify the cause → apply a targeted fix → verify the result**
+
+## Screenshots / Evidence
+
+### Filesystem Navigation
+
+![Filesystem Navigation](screenshots/filesystem-navigation.png)
+
+### File and Directory Management
+
+![File and Directory Management](screenshots/file-management.png)
+
+### Live Log Monitoring
+
+![Live Log Monitoring](screenshots/log-monitoring.png)
+
+### Log Searching and Filtering
+
+![Log Searching and Filtering](screenshots/log-filtering.png)
+
+### Permission Troubleshooting
+
+![Permission Troubleshooting](screenshots/permissions-before.png)
+
+![Permission Troubleshooting - Fixed](screenshots/permissions-after.png)
+
+## Conclusion
+
+This lab strengthened my foundational Linux command-line skills and provided hands-on experience with common tasks involved in IT support and system administration.
+
+The exercises provided practical experience working with files, logs, command-line filtering, and Linux permissions while reinforcing a structured approach to troubleshooting.
+
