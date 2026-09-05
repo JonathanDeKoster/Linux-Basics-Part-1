@@ -151,27 +151,38 @@ The lab reinforced a practical troubleshooting approach:
 
 ## Screenshots / Evidence
 
+### Ubuntu Server/ VirtualBox
+<img width="686" height="583" alt="Ubuntu Server" src="https://github.com/user-attachments/assets/1cc35738-4961-4374-8771-419378f15456" />
+
+
 ### Filesystem Navigation
 
-![Filesystem Navigation](screenshots/filesystem-navigation.png)
+<img width="971" height="593" alt="filesystem-navigation" src="https://github.com/user-attachments/assets/8f96648d-a4af-49e3-987a-a911db4fe9b3" />
+
 
 ### File and Directory Management
 
-![File and Directory Management](screenshots/file-management.png)
+<img width="973" height="491" alt="file-and-directory-management" src="https://github.com/user-attachments/assets/e1c76251-40b3-4c67-a176-a33eeb0b1311" />
+
 
 ### Live Log Monitoring
 
-![Live Log Monitoring](screenshots/log-monitoring.png)
+<img width="673" height="460" alt="Live-log-monitoring-1" src="https://github.com/user-attachments/assets/accd91b6-175c-40c9-a5f9-ce2020bc769b" />
+
+<img width="667" height="457" alt="Live-log-monitoring-2" src="https://github.com/user-attachments/assets/6bed0cef-2c3f-45b4-9454-84f047b29400" />
+
 
 ### Log Searching and Filtering
 
-![Log Searching and Filtering](screenshots/log-filtering.png)
+<img width="667" height="458" alt="Searching-and-filtering" src="https://github.com/user-attachments/assets/2e18f1f3-0c31-4733-ac06-5118e737426a" />
+
 
 ### Permission Troubleshooting
 
-![Permission Troubleshooting](screenshots/permissions-before.png)
+<img width="665" height="459" alt="Permission-troubleshooting 1" src="https://github.com/user-attachments/assets/cef27712-577d-49fa-a048-850a6095515d" />
 
-![Permission Troubleshooting - Fixed](screenshots/permissions-after.png)
+<img width="667" height="459" alt="Permission-troubleshooting 2" src="https://github.com/user-attachments/assets/f4f26995-6adb-4064-9345-404955d6d565" />
+
 
 ## Conclusion
 
