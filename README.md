@@ -7,6 +7,10 @@ Hands-on Linux fundamentals lab completed using an Ubuntu Server virtual machine
 
 The lab focused on navigating the Linux filesystem, managing files, working with logs, searching and filtering data, file permissions, and basic troubleshooting.
 
+## Lab Source
+
+This lab was completed using a hands-on lab from Jake's Tech Labs as part of my ongoing IT training. The environment was recreated and documented independently in my own lab environment.
+
 ## Environment
 
 - Ubuntu Server
